@@ -1,19 +1,20 @@
 [general]
+resource_parser_url = https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
+network_check_url = http://www.bing.com
 server_check_url = http://www.gstatic.com/generate_204
 dns_exclusion_list = *.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.me, *.pingan.com.cn, *.cmbchina.com
-resource_parser_url = https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
-excluded_routes = 239.255.255.250/32
 udp_drop_list = 443
+excluded_routes = 239.255.255.250/32
 icmp_auto_reply = true
 
 [dns]
-server=119.29.29.29
-server=180.184.1.1
-server=223.5.5.5
-address=/mtalk.google.com/108.177.125.188
-server=/dl.google.com/119.29.29.29
-server=/dl.l.google.com/119.29.29.29
-server=/update.googleapis.com/119.29.29.29
+server = 119.29.29.29
+server = 180.184.1.1
+server = 223.5.5.5
+address = /mtalk.google.com/108.177.125.188
+server = /dl.google.com/119.29.29.29
+server = /dl.l.google.com/119.29.29.29
+server = /update.googleapis.com/119.29.29.29
 
 [policy]
 
